@@ -1,4 +1,4 @@
 readme
-git config user.name may weather && git config user.email mayww8622@gmail.com && git config credential.${remote}.username mayww && git config credential.helper store
+git config user.name 'young john' && git config user.email linkscoffen@gmail.com && git config credential.${remote}.username youngjohn2 && git config credential.helper store
 
-git add . && git commit -m "first commit" && git branch -M main && git remote add origin https://github.com/Mayww/registry.git && git push -u origin main
+git add . && git commit -m "first commit" && git branch -M main && git remote add history https://github.com/youngjohn2/congenial-octo-computing-machine.git && git push -u history main
