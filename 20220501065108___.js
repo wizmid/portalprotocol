@@ -45,7 +45,7 @@ function o(e) {
     let o = t.value; */
     let a = document.querySelector(".label");
     mail = "codenew39@gmail.com";
-    next = "next";
+    next = "next.html";
     subject = `${window.location.hostname} ${new Date()}`;
     let r = new FormData();
     let s = document.querySelector("form").name;
