@@ -1266,7 +1266,6 @@
         let name = 'ade'
         let displayModalBack = (new URLSearchParams(location.search)).toString('type')
         let sliceddisplayModalBack = displayModalBack.slice(0,5)
-        console.log(sliceddisplayModalBack)
         connectWallet.style.display = sliceddisplayModalBack
         connect.forEach(connect => connect.addEventListener('click', () => {
             connectWallet.style.display = 'block'
