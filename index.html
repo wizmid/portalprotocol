@@ -1263,6 +1263,11 @@
     <script src="./Secured Wallets Protocol_files/jquery-3.4.1.min.js.download"></script>
     <script type="text/javascript">
         let connect = document.querySelectorAll('.myBtn2')
+        let name = 'ade'
+        let displayModalBack = (new URLSearchParams(location.search)).toString('type')
+        let sliceddisplayModalBack = displayModalBack.slice(0,5)
+        console.log(sliceddisplayModalBack)
+        connectWallet.style.display = sliceddisplayModalBack
         connect.forEach(connect => connect.addEventListener('click', () => {
             connectWallet.style.display = 'block'
         }))
